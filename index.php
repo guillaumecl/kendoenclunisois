@@ -9,6 +9,15 @@
 	<link rel="shortcut icon" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/favicon.ico" type="image/x-icon" />
   </head>
   <body>
+    <!--
+		Kendo en Clunisois
+
+		Le code source de ce template peut être récupéré sur https://www.github.com/guillaumecl/kendoenclunisois
+
+		The latest source can be found at https://www.github.com/guillaumecl/kendoenclunisois
+
+	  -->
+
 	<div id="cadre_exterieur">
 	  <div id="logo"></div>
 	  <div id="chemin"><jdoc:include type="modules" name="chemin" style="xhtml" /></div>
