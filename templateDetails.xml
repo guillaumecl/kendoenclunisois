@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="2.5" type="template" client="site">
-	<name>Kendo_en_clunisois</name>
-	<creationDate>mai 2013</creationDate>
-	<author>CLÉMENT Guillaume</author>
-	<authorEmail>gclement@baobob.org</authorEmail>
-	<authorUrl>https://www.github.com/guillaumecl/kendoenclunisois</authorUrl>
-	<copyright>Copyright (C) kendoenclunisois.fr</copyright>
-	<license>GNU General Public License version 2 ou supérieure</license>
-	<version>1.0</version>
-	<description>Template joomla 2.5 pour Kendo en clunisois</description>
-	<files>
-		<folder>css</folder>
-		<folder>images</folder>
-		<filename>index.php</filename>
-		<filename>index.html</filename>
-		<filename>templateDetails.xml</filename>
-		<filename>favicon.ico</filename>
-	</files>
-	<positions>
-		<position>menu_haut</position>
-		<position>gauche</position>
-		<position>droite</position>
-		<position>chemin</position>
-		<position>recherche</position>
-		<position>footer</position>
-	</positions>
+  <name>kendo_en_clunisois</name>
+  <creationDate>mai 2013</creationDate>
+  <author>CLÉMENT Guillaume</author>
+  <authorEmail>gclement@baobob.org</authorEmail>
+  <authorUrl>https://www.github.com/guillaumecl/kendoenclunisois</authorUrl>
+  <copyright>Copyright (C) kendoenclunisois.fr</copyright>
+  <license>GNU General Public License version 2 ou supérieure</license>
+  <version>1.0.1</version>
+  <description>Template joomla 2.5 pour Kendo en clunisois</description>
+  <files>
+	<folder>css</folder>
+	<folder>images</folder>
+	<folder>sound</folder>
+	<filename>index.php</filename>
+	<filename>index.html</filename>
+	<filename>templateDetails.xml</filename>
+	<filename>favicon.ico</filename>
+  </files>
+  <positions>
+	<position>menu_haut</position>
+	<position>gauche</position>
+	<position>droite</position>
+	<position>chemin</position>
+	<position>recherche</position>
+	<position>footer</position>
+  </positions>
 </extension>

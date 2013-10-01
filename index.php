@@ -17,7 +17,19 @@
 		The latest source can be found at https://www.github.com/guillaumecl/kendoenclunisois
 
 	  -->
-
+<?php
+$app = JFactory::getApplication();
+$menu = $app->getMenu();
+if ($menu->getActive() == $menu->getDefault())
+{
+?>
+	<audio src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/sound/bol_tibetain.mp3"
+		   type="audio/mpeg"
+		   autoplay="autoplay">
+	</audio>
+<?php
+}
+?>
 	<div id="cadre_exterieur">
 	  <div id="logo"></div>
 	  <div id="chemin"><jdoc:include type="modules" name="chemin" style="xhtml" /></div>
