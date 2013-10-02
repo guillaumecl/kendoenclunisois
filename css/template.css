@@ -58,6 +58,7 @@ a:hover
 #logo h1
 {
 	text-align: center;
+	margin: 0;
 }
 
 #cadre_texte
