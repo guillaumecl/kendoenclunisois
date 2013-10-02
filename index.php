@@ -31,7 +31,7 @@ if ($menu->getActive() == $menu->getDefault())
 }
 ?>
 	<div id="cadre_exterieur">
-	  <div id="logo"></div>
+	  <div id="logo"><h1>Kendo en clunisois</h1></div>
 	  <div id="chemin"><jdoc:include type="modules" name="chemin" style="xhtml" /></div>
 	  <div id="recherche"><jdoc:include type="modules" name="recherche" style="xhtml" /></div>
 	  <div class="clr"></div>
