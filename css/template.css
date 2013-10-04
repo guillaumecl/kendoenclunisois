@@ -204,3 +204,21 @@ h2
 
 	margin-top: 0px;
 }
+
+div.profile dt, div.profile-edit dt, div.registration dt
+{
+	font-weight: bold;
+	width: 350px;
+	text-align: right;
+	clear: left;
+	float: left;
+}
+
+div.profile dt:after, div.profile-edit dt:after, div.registration dt:after {
+	content: ' :';
+}
+
+div.profile dd, div.profile-edit dd, div.registration dd
+{
+	float: left;
+}
