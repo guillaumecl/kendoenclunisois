@@ -214,7 +214,7 @@ div.profile dt, div.profile-edit dt, div.registration dt
 	float: left;
 }
 
-div.profile dt:after, div.profile-edit dt:after, div.registration dt:after {
+div.profile dt:after, div.profile-edit dt:after {
 	content: ' :';
 }
 
